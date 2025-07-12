@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Product Manager</h1>
+
+    <input type="text" id="search" placeholder="🔍 Search products..." />
+
+    <form id="productForm">
+      <input type="text" id="name" placeholder="Product Name" required />
+      <input type="number" id="price" placeholder="Price" required />
+      <input type="text" id="category" placeholder="Category" required />
+      <textarea id="description" placeholder="Description"></textarea>
+      <button type="submit" id="submitBtn">Add Product</button>
+    </form>
+
+    <div id="productsContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
